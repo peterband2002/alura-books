@@ -1,0 +1,95 @@
+Ao trabalhar com async function, eu não tenho que esperar até que todos os dados sejam carregados, para finalizá-la. Para isso eu tenho que "esperar"(await) por uma "promessa"(Promisse)
+
+console.table() irá gerar uma tabela de dados no console.
+
+{...}: essas reticências são conhecidas como spread operator. Ele faz uma cópia de todo o array que esteja sendo trabalhado
+
+
+Métodos úteis para se utilizar com arrays:
+
+.concat(): junta dois ou mais elementos em um novo array, sem alterar os já existentes
+
+.pop(): remove o último elemento de um array
+
+.push(): adiciona um novo elemento no final do array, aumentando seu tamanho
+
+.includes(): verifica se um elemento está contido em um array e retorna true caso esteja e false, caso não
+
+.fill(): preenche os elementos especificados em um array com um determinado valor
+
+.indexOf(): retorna o primeiro índice encontrado de um valor especificado. Se o valor não for encontrado o método retorna -1
+
+.reverse(): inverte a ordem dos elementos de um array e substitui o array original
+
+.slice(): retorna elementos de um array, selecionados de determinada posição de início até determinada posição final. O elemento na posição final não é incluso.
+
+.some(): verifica se algum elemento do array passa em um teste. Esse teste é feito através de uma função callback. O método executa a função de callback para cada elemento uma vez e retorna true se o teste for true para um dos elementos, e false se o teste for false para todos os elementos. Além disso, o método não executa a função callback para arrays vazios e não altera o array.
+
+.join(): puxa elementos de um array e lista no formato de string, o resultado da operação puxou as propriedades do array e as listou de acordo com o que foi determinado.
+
+.shift(): parecido com o método .pop() mas ao invés de remover o último elemento do array, ele é usado para remover o primeiro elemento do array.
+
+.unshift(): parecido com o que método .push() realiza, mas ao invés de adicionar no final do array, ele é utilizado para adicionar um elemento no início de um array.
+
+.splice(): conseguimos escolher um índice inicial e final para substituirmos valores no lugar deles. E também podemos remover itens.
+
+.length(): define ou retorna o número de elementos em um array.
+
+.sort(): ordena os elementos do próprio array e retorna o array. A ordenação padrão é de acordo com a pontuação de código unicode.
+
+.toString(): retorna uma string com todos os valores do array separados por vírgulas.
+
+.findIndex(): retorna o índice no array do primeiro elemento que satisfizer a função de teste provida. Caso contrário, retorna -1, indicando que nenhum elemento passou no teste.
+
+.find(): é utilizado para procurar um elemento dentro do array que atenda a condição atribuída a ele, que retornará o primeiro elemento encontrado. Ele percorre todo o array buscando o elemento que atenda a condição e retorna o primeiro que foi encontrado, caso não encontre retorna undefined. Este método não executa caso o array esteja vazio e não altera o array original
+
+.at(): acessa os elementos de um array usando um índice inteiro positivo e negativo, sendo que o índice negativo enumera os itens de trás para frente, portando o 🏐 está posicionado no índice -1.
+
+.isArray(): verifica se a variável é um array e retorna true ou false.
+
+.every(): verifica se cada elemento do array passa em um teste. Esse teste é feito através de uma função callback. O método executa a função de callback para cada elemento uma vez e retorna true se o teste for true para todos os elementos, e false se o teste for false para pelo menos um elemento. Além disso, o método não executa a função callback para arrays vazios e não altera o array.
+
+.filter(): usa uma função callback de teste e executa ela para cada elemento do array. Ele retorna um novo array com os elementos que passarem no teste.
+
+.map(): usa uma função callback de teste e executa ela para cada elemento do array, retornando um novo array modificado. Não executa a função de callback para arrays vazios.
+
+.forEach(): usa uma função callback e executa ela para cada elemento do array. Não executa a função de callback para arrays vazios e não retorna um novo array, diferente do método map.
+
+.copyWithin(): copia os elementos do array para outra posição no array, ele não adiciona itens apenas substitui os valores existentes.
+
+.lastIndexOf(): retorna o valor do último índice especificado, se o valor não for encontrado ele retorna -1.
+
+.valueOf(): é usado para retornar o array. É um método padrão do objeto Array. Este método retorna todos os itens na mesma matriz. Ele não altera o conteúdo original da matriz e não contém nenhum valor de parâmetro.
+
+.reduce(): executa uma função redutora para o elemento array, ele retorna um único valor que é o resultado acumulado da função. Ele não executa a função para elementos de array vazios e não altera a matriz original.
+
+.keys(): retorna um novo array composto pelas chaves (posições) do array o qual ele foi aplicado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
